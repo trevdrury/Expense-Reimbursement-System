@@ -1,0 +1,19 @@
+
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ
+A
+java:S1168V"+Return an empty collection instead of null.(¥¹ï
+A
+java:S1168["+Return an empty collection instead of null.(¥¹ï
+A
+java:S1168`"+Return an empty collection instead of null.(¥¹ï
+K
+java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ
+e
+java:S2095{"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+e
+java:S2095("OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+e
+java:S2095A"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½
+e
+java:S2095g"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ÀÖĞ½

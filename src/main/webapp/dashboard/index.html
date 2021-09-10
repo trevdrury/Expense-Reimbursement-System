@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ERS | Dashboard</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/dashboard.css" />
+    <link rel="stylesheet" href="../styles/reimb-form.css" />
+  </head>
+  <body>
+    <div id="overlay"></div>
+    <header class="page-header">
+      <div id="left">
+        <h2 id="title">Reimbursements</h2>
+        <p id="user"></p>
+      </div>
+      <div id="right">
+        <div id="filter">Filter by status <span>&#9660;</span></div>
+        <div id="dropdown" class="hidden">
+          <ul id="dropdown-list">
+            <li class="dropdown-item" id="filter-approved">Approved</li>
+            <li class="dropdown-item" id="filter-denied">Denied</li>
+            <li class="dropdown-item" id="filter-pending">Pending</li>
+            <li class="dropdown-item" id="filter-all">Show All</li>
+          </ul>
+        </div>
+        <button id="new-btn"><span>+</span> New Reimbursement</button>
+        <button id="logout">Logout</button>
+      </div>
+    </header>
+    <div id="dash-container"></div>
+    <br />
+
+    <div id="form-container">
+      <div id="form-header">
+        <h2>Add new reimbursement</h2>
+        <div id="close">
+          <div class="bar-x">
+            <div class="bar-y"></div>
+          </div>
+        </div>
+      </div>
+
+      <form id="reimb-form">
+        <div>
+          <label for="description">Description</label>
+          <input type="text" name="description" id="description" />
+        </div>
+        <div id="form-row">
+          <div>
+            <label for="amount">Amount</label>
+            <input type="text" name="amount" id="amount" />
+          </div>
+          <div>
+            <label>Type</label>
+            <div id="custom-select">
+              <p id="selection">Lodging</p>
+              <div class="select-arrow"></div>
+              <div id="type-dropdown" class="hidden">
+                <ul id="types">
+                  <li class="type" data-id="1" id="type-lodging">Lodging</li>
+                  <li class="type" data-id="2" id="type-travel">Travel</li>
+                  <li class="type" data-id="3" id="type-food">Food</li>
+                  <li class="type" data-id="4" id="type-other">Other</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button id="reimb-btn">+ Add New Reimbursement</button>
+      </form>
+    </div>
+
+    <script src="../scripts/globals.js"></script>
+    <script src="../scripts/dashboard.js"></script>
+    <script src="../scripts/reimbForm.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(ıÜ®ƒ˘ˇˇˇˇ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(ù¥Å˚¸ˇˇˇˇ
+e
+java:S2095["OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¿÷–Ω
+e
+java:S2095>"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¿÷–Ω
+e
+java:S2095%"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¿÷–Ω
